@@ -27,3 +27,10 @@ public class Calculator
             calc=a+b;
             System.out.println("Result : " +df.format(calc));
             break;
+
+            case '2':System.out.println("Enter two numbers : ");
+            a=number.nextFloat();
+            b=number.nextFloat();
+            calc=a-b;
+            System.out.println("Result : " +df.format(calc));
+            break;
