@@ -48,3 +48,7 @@ public class Calculator
             calc=a*b;
             System.out.println("Result : " +df.format(calc));
             break;
+
+            case '5':
+               System.out.println("Clear\n");
+               break;
