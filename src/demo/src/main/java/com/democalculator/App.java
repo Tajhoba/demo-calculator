@@ -52,3 +52,7 @@ public class Calculator
             case '5':
                System.out.println("Clear\n");
                break;
+            
+            case '6':
+            System.exit(0);
+            break;
