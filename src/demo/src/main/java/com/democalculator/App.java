@@ -1,13 +1,8 @@
 package com.democalculator;
+import java.util.Scanner;
+import java.text.DecimalFormat;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class Calculator
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-}
+   private static DecimalFormat df = new DecimalFormat("0.000");
+   public static void main(String args[])
