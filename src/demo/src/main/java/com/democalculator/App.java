@@ -56,3 +56,7 @@ public class Calculator
             case '6':
             System.exit(0);
             break;
+        }
+    }    
+    while(commend!=6);
+}  
